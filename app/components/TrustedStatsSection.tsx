@@ -52,7 +52,7 @@ const GlassyCard: React.FC<GlassyCardProps> = ({ title, description }) => {
           "radial-gradient(ellipse 80% 60% at 20% 30%, rgba(190,136,255,0.12), transparent 90%), radial-gradient(ellipse 75% 55% at 80% 30%, rgba(89,52,187,0.12), transparent 90%)",
       }}
     >
-      <h3 className="text-lg font-semibold text-white mb-2">{title}</h3>
+      <h2 className="text-lg font-semibold text-white mb-2">{title}</h2>
       <p className="text-gray-300 text-sm leading-relaxed">{description}</p>
     </motion.div>
   );

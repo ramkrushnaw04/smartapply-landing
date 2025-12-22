@@ -54,7 +54,7 @@ const ScrollCard: React.FC<ScrollCardProps> = ({
             </div>
             <div className="flex flex-col justify-center h-full">
                 <h3 className="font-semibold text-xs text-gray-700 truncate w-[160px]">{title}</h3>
-                <p className="text-gray-400 text-xs mt-1">{jobs} Jobs Available</p>
+                <p className="text-gray-600 text-xs mt-1">{jobs} Jobs Available</p>
             </div>
         </div>
     );

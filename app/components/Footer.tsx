@@ -48,9 +48,9 @@ const Footer: React.FC = () => {
                 align="left"
               />
 
-              <h3 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight text-gray-900">
+              <h2 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight text-gray-900">
                 Stay Connected <br />With SmartApply
-              </h3>
+              </h2>
 
               <p className="text-gray-700 text-base md:text-lg mb-6 max-w-xl leading-7">
                 Follow us on social media to never miss a job opportunity, career insights, and expert hiring tips.

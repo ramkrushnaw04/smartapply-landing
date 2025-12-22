@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export function useSectionTextColor(navbarHeight: number = 66): string {
-  const [textColor, setTextColor] = useState<string>("text-gray-900");
+  const [textColor, setTextColor] = useState<string>("text-white");
 
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll(".content"));

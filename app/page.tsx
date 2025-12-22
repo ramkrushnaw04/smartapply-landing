@@ -16,15 +16,17 @@ export default function Home() {
   return (
     <>
         <Navbar />
-        <Hero />
-        <CareerExploreSection />
-        <TrustedStatsSection />
-        <PopularJobsSection />
-        <LatexResumeBuilderSection />
-        <ChatbotCompanionSection />
-        <HeroOpportunitiesSection />
-        <FAQSection />
-        <ContactSection />
+        <main>
+          <Hero />
+          <CareerExploreSection />
+          <TrustedStatsSection />
+          <PopularJobsSection />
+          <LatexResumeBuilderSection />
+          <ChatbotCompanionSection />
+          <HeroOpportunitiesSection />
+          <FAQSection />
+          <ContactSection />
+        </main>
         <Footer />
     </>
   );

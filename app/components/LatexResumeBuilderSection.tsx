@@ -38,7 +38,7 @@ const LatexResumeBuilderSection: React.FC = () => {
                     data-bg='dark'
                 >
 
-                    <div className="mb-12">
+                    <div className="">
                         <GradientHeading
                             leftText="Resume Builder with"
                             highlightText="LaTeX"
@@ -128,7 +128,7 @@ const LatexResumeBuilderSection: React.FC = () => {
                                 {/* Header */}
                                 <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 border-b border-gray-200 pb-5">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-gray-900 leading-tight">Alex Johnson</h3>
+                                        <p className="text-2xl font-bold text-gray-900 leading-tight">Alex Johnson</p>
                                         <p className="text-sm text-gray-600 mt-0.5">Frontend Engineer • React, TypeScript, Tailwind</p>
                                     </div>
                                     <div className="text-xs text-gray-500">

@@ -74,10 +74,10 @@ export const ChatbotCanvas: React.FC = () => {
 
                 {/* composer */}
                 <div className="flex items-center gap-2 px-4 py-3 bg-white border-t border-gray-200">
-                    <button disabled className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
+                    <button disabled aria-label="Voice input" className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
                         <Mic className="h-4 w-4" />
                     </button>
-                    <button disabled className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
+                    <button disabled aria-label="Attach file" className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
                         <Paperclip className="h-4 w-4" />
                     </button>
                     <input
@@ -184,10 +184,10 @@ const ChatbotCompanionSection: React.FC = () => {
 
                             {/* composer */}
                             <div className="flex items-center gap-2 px-4 py-3 bg-white border-t border-gray-200">
-                                <button disabled className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
+                                <button disabled aria-label="Voice input" className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
                                     <Mic className="h-4 w-4" />
                                 </button>
-                                <button disabled className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
+                                <button disabled aria-label="Attach file" className="h-9 w-9 rounded-full border border-gray-200 flex items-center justify-center text-gray-700 bg-white">
                                     <Paperclip className="h-4 w-4" />
                                 </button>
                                 <input
