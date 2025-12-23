@@ -207,14 +207,6 @@ const Footer: React.FC = () => {
                     For Employers
                   </Link>
                 </li>
-                <li>
-                  <Link 
-                    href="/about-us"
-                    className="text-gray-700 hover:text-indigo-600 transition-colors duration-200"
-                  >
-                    About Us
-                  </Link>
-                </li>
               </ul>
             </div>
 
