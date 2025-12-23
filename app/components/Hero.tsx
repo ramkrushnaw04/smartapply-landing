@@ -145,14 +145,17 @@ const LatexResumePanel: React.FC = () => {
 
 const Hero: React.FC = () => {
     return (
-        <section
-            className="content min-h-[700px] xs:min-h-[750px] sm:min-h-[800px] md:min-h-[850px] lg:min-h-[800px] xl:min-h-[800px] m-2 mt-[75px] py-12 md:py-16 lg:py-20 rounded-3xl flex items-center"
-            style={{
-                background:
-                    "radial-gradient(ellipse 80% 65% at 20% 30%, rgba(190,136,255,0.09), transparent 90%), radial-gradient(ellipse 75% 55% at 80% 30%, rgba(89,52,187,0.18), transparent 90%), #18181b",
-            }}
-            data-bg="dark"
-        >
+        <>
+            {/* Spacer to cover the white area above Hero where navbar sits */}
+            <div className="content h-[75px] fixed top-0 left-0 right-0 -z-10" data-bg="light" />
+            <section
+                className="content min-h-[700px] xs:min-h-[750px] sm:min-h-[800px] md:min-h-[850px] lg:min-h-[800px] xl:min-h-[800px] m-2 mt-[75px] py-12 md:py-16 lg:py-20 rounded-3xl flex items-center"
+                style={{
+                    background:
+                        "radial-gradient(ellipse 80% 65% at 20% 30%, rgba(190,136,255,0.09), transparent 90%), radial-gradient(ellipse 75% 55% at 80% 30%, rgba(89,52,187,0.18), transparent 90%), #18181b",
+                }}
+                data-bg="dark"
+            >
             <div className="m-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col mdd:flex-row-reverse items-center lg:items-stretch justify-between gap-8 lg:gap-10">
                     {/* Right column with cluster scaling and responsive height */}
@@ -223,6 +226,7 @@ const Hero: React.FC = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
