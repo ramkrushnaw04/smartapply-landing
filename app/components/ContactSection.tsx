@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
     <section 
         id="contact-us"
         className="content w-full flex justify-center items-center px-2"
-        data-bg = 'dark'
+        data-bg="dark"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}

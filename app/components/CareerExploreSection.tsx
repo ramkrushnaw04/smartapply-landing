@@ -228,7 +228,7 @@ const CareerExploreSection: React.FC = () => {
         <section
             id="careers"
             className="content relative py-10 sm:py-16 px-8 sm:px-16  max-w-screen-xl mx-auto overflow-hidden"
-            data-bg='light'
+            data-bg="light"
         >
             <div className="pointer-events-none absolute bottom-0 left-0 w-1/2 h-80 blur-3xl bg-gradient-to-tr from-purple-100 via-pink-100 to-yellow-100 opacity-20 rounded-3xl -z-10"></div>
 

@@ -70,7 +70,7 @@ const TrustedEcosystemSection: React.FC = () => {
         background:
           "radial-gradient(ellipse 80% 60% at 20% 30%, rgba(190,136,255,0.15), transparent 90%), radial-gradient(ellipse 75% 55% at 80% 30%, rgba(89,52,187,0.15), transparent 90%), #18181b",
       }}
-      data-bg = 'dark'
+      data-bg="dark"
     >
       {/* <motion.h2
         initial={{ opacity: 0, y: 18 }}

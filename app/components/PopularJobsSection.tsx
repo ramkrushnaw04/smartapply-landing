@@ -84,7 +84,7 @@ const PopularJobsSection: React.FC = () => {
     return (
         <section 
             className="content max-w-6xl mx-auto py-20 px-6"
-            data-bg = 'light'
+            data-bg="light"
         >
             <div className="mb-12">
                 <GradientHeading
@@ -107,7 +107,9 @@ const PopularJobsSection: React.FC = () => {
                         className="flex-1"
                     >
                         <PopularJobsCard isCentered={i === 1}>
-                            <JobCard />
+                            <div className='rounded-3xl overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.25)] scale-90'>
+                                <img src="https://i.postimg.cc/fb8NNn8n/jobcard.png" alt="Job Card" className="w-full h-full object-cover" />
+                            </div>
                         </PopularJobsCard>
                     </motion.div>
                 ))}
@@ -125,7 +127,9 @@ const PopularJobsSection: React.FC = () => {
                         className="flex-1 absolute"
                         style={{left: i*30, top: i*40}}
                     >
-                        <JobCard />
+                        <div className='rounded-3xl overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.25)] scale-90'>
+                            <img src="https://i.postimg.cc/fb8NNn8n/jobcard.png" alt="Job Card" className="w-full h-full object-cover" />
+                        </div>
                     </motion.div>
                 ))}
             </div>

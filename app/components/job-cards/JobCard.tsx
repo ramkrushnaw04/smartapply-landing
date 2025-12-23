@@ -2,10 +2,8 @@ import React from "react";
 
 const JobCard: React.FC = () => {
   return (
-    <div className="max-w-xs w-full  transition-all bg-white  border-white p-5 flex flex-col gap-3 rounded-3xl shadow-[0_0_10px_rgba(0,0,0,0.25)] "
-      style={{
-        borderImage: 'linear-gradient(to top right, #a5b4fc, #d8b4fe, #fbcfe8) 1'
-      }}>
+    <div className="max-w-xs w-full transition-all rounded-3xl p-[2px]  shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+      <div className="bg-white p-5 flex flex-col gap-3 rounded-[calc(1.5rem-2px)]">
       {/* Company Logo and Name */}
       <div className="flex items-center gap-3">
         <div className="w-12 h-12 rounded-full flex items-center justify-center bg-gradient-to-br from-indigo-800 via-blue-900 to-purple-900">
@@ -55,6 +53,7 @@ const JobCard: React.FC = () => {
           Apply Now
         </button>
         <span className="text-xs text-gray-400 ml-2">3 days ago</span>
+      </div>
       </div>
     </div>
   );

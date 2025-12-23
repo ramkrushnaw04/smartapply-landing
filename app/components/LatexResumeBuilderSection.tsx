@@ -35,10 +35,10 @@ const LatexResumeBuilderSection: React.FC = () => {
                     viewport={{ once: true, amount: 0.15 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     className="content flex flex-col justify-center"
-                    data-bg='dark'
+                    data-bg="dark"
                 >
 
-                    <div className="">
+                    <div>
                         <GradientHeading
                             leftText="Resume Builder with"
                             highlightText="LaTeX"
@@ -124,68 +124,8 @@ const LatexResumeBuilderSection: React.FC = () => {
                             </div>
 
                             {/* Resume content */}
-                            <div data-bg='light' className="content p-7 sm:p-9">
-                                {/* Header */}
-                                <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 border-b border-gray-200 pb-5">
-                                    <div>
-                                        <p className="text-2xl font-bold text-gray-900 leading-tight">Alex Johnson</p>
-                                        <p className="text-sm text-gray-600 mt-0.5">Frontend Engineer • React, TypeScript, Tailwind</p>
-                                    </div>
-                                    <div className="text-xs text-gray-500">
-                                        alex.johnson@example.com • github.com/alexj • San Francisco, CA
-                                    </div>
-                                </div>
-
-                                {/* Summary */}
-                                {/* <div className="mt-6">
-                  <h4 className="text-sm font-semibold text-gray-900 tracking-wide">SUMMARY</h4>
-                  <p className="text-sm text-gray-700 mt-1">
-                    Frontend engineer with 4+ years building accessible, high‑performance apps. Led refactors that lifted conversion by 14% and shipped component systems across teams.
-                  </p>
-                </div> */}
-
-                                {/* Experience */}
-                                <div className="mt-6">
-                                    <h4 className="text-sm font-semibold text-gray-900 tracking-wide">EXPERIENCE</h4>
-                                    <div className="mt-2">
-                                        <p className="text-sm font-semibold text-gray-900">Product UI Engineer — PixelCraft</p>
-                                        <p className="text-xs text-gray-500">2022 — Present</p>
-                                        <ul className="list-disc list-outside pl-5 mt-1 space-y-1 text-sm text-gray-700">
-                                            <li>Shipped a 40+ component design system; dev time down 22%.</li>
-                                            <li>Improved LCP from 3.1s to 1.7s with perf audits and code‑splitting.</li>
-                                            <li>Ran A/B tests with +14% conversion on key funnels.</li>
-                                        </ul>
-                                    </div>
-                                    <div className="mt-3">
-                                        <p className="text-sm font-semibold text-gray-900">Frontend Developer — NovaTech</p>
-                                        <p className="text-xs text-gray-500">2020 — 2022</p>
-                                        <ul className="list-disc list-outside pl-5 mt-1 space-y-1 text-sm text-gray-700">
-                                            <li>Responsive dashboards for 50K MAU, role‑based access.</li>
-                                            <li>Bundle size reduced by 28% via asset strategy and tree‑shaking.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                {/* Projects */}
-                                <div className="mt-6">
-                                    <h4 className="text-sm font-semibold text-gray-900 tracking-wide">PROJECTS</h4>
-                                    <ul className="list-disc list-outside pl-5 mt-1 space-y-1 text-sm text-gray-700">
-                                        <li>Open‑source chart library: 120+ stars, 8 contributors.</li>
-                                        <li>Portfolio SPA with i18n and visual regression tests.</li>
-                                    </ul>
-                                </div>
-
-                                {/* Skills & Education */}
-                                <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <div>
-                                        <h4 className="text-sm font-semibold text-gray-900 tracking-wide">SKILLS</h4>
-                                        <p className="text-sm text-gray-700 mt-1">React, TypeScript, Tailwind, Redux, Vitest, Web Vitals</p>
-                                    </div>
-                                    <div>
-                                        <h4 className="text-sm font-semibold text-gray-900 tracking-wide">EDUCATION</h4>
-                                        <p className="text-sm text-gray-700 mt-1">B.E. Computer Science — 2019</p>
-                                    </div>
-                                </div>
+                            <div data-bg="light" className="rounded-2xl overflow-clip">
+                                <img src="/section-images/resume.png" alt="resume" />
                             </div>
 
                             {/* Bottom-right vertical glassy pills */}

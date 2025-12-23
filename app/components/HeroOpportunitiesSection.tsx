@@ -60,7 +60,7 @@ const HeroOpportunitiesSection: React.FC = () => {
         background:
           "radial-gradient(ellipse 80% 65% at 20% 30%, rgba(190,136,255,0.09), transparent 90%), radial-gradient(ellipse 75% 55% at 80% 30%, rgba(89,52,187,0.18), transparent 90%), #18181b",
       }}
-      data-bg = 'dark'
+      data-bg="dark"
     >
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-10">
         {/* Cards - left */}
@@ -73,11 +73,13 @@ const HeroOpportunitiesSection: React.FC = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="z-10"
           >
-            <JobCard />
+            <div className="w-[300px] md:w-[320px] rounded-3xl overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+              <img src="https://i.postimg.cc/fb8NNn8n/jobcard.png" alt="Job Card" className="w-full h-full object-cover" />
+            </div>
           </motion.div>
 
           {/* Project Card */}
-          <div className="absolute top-[400px] left-10 sm:top-[240px] sm:left-40 z-10 shadow-xl"> 
+          <div className="absolute top-[430px] left-10 sm:top-[260px] sm:left-40 z-10 shadow-xl"> 
             <ProjectCard />
           </div>
         </div>

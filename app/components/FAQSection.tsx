@@ -40,7 +40,7 @@ const FAQSection: React.FC = () => {
     <section 
         id="faqs"
       className="content max-w-3xl mx-auto py-20 px-6 sm:px-4"
-      data-bg='light'
+      data-bg="light"
     >
 
       <GradientHeading
